@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 32px;
+  padding-bottom: 92px;
+}
+
+/* Nav Section */
+.logo-container {
+  padding-bottom: 32px;
+}
+
+.logo-image-container {
+  width: 100px;
+  padding-left: 33px;
+}
+
+.logo-image {
+  width: 100%;
+}
+
+/* Hero Section */
+.hero-image-container {
+  width: 375px;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+/* Article Section */
+main {
+  padding: 64px 32px 0 32px;
+  width: 375px;
+}
+
+.article-heading-container {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.article-heading-container h1 span {
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 10px;
+  color: #ce9898;
+}
+
+.article-heading-container h1 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  color: #423a3a;
+}
+
+.article-paragraph-container {
+  margin-bottom: 32px;
+}
+
+.article-paragraph-container p {
+  text-align: center;
+  font-size: 14px;
+  color: #ce9898;
+  line-height: 155%;
+}
+
+/* Form Section */
+form {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+form input {
+  border: 1px solid #ce9898;
+  border-radius: 28px;
+  padding: 8px 24px;
+  color: #ce9898;
+  line-height: 215%;
+  width: 100%;
+  margin-right: -50px;
+}
+
+form input::placeholder {
+  color: #ce9898;
+  opacity: 50%;
+}
+
+form button {
+  width: 64px;
+  height: 48px;
+  border-radius: 28px;
+  border: none;
+  background: linear-gradient(90deg, #f8bfbf, #ee8b8b);
+}
