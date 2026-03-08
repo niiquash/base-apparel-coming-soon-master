@@ -6,7 +6,6 @@
 
 body {
   font-family: "Josefin Sans", sans-serif;
-  padding-bottom: 92px;
 }
 
 /* Header and logo */
@@ -34,7 +33,7 @@ header {
 
 /* Main - Article heading, paragraph, form */
 main {
-  padding: 64px 32px 0 32px;
+  padding: 64px 32px 92px 32px;
 }
 
 /* Heading */
@@ -47,6 +46,7 @@ main {
   font-size: 40px;
   font-weight: 600;
   letter-spacing: 10px;
+  color: #423a3a;
 }
 
 .article-heading-container h1 span {
@@ -120,4 +120,47 @@ button {
 
 .show {
   display: block;
+}
+
+/* Tablet view */
+@media (min-width: 768px) {
+  /* Header and logo */
+  header {
+    padding: 32px 80px;
+  }
+
+  /* Main - Article heading, paragraph, form */
+  main {
+    padding: 64px 162px;
+  }
+
+  /* Heading */
+  .article-heading-container {
+    margin-bottom: 32px;
+  }
+
+  .article-heading-container h1 {
+    font-size: 64px;
+    letter-spacing: 18px;
+    line-height: 110%;
+  }
+
+  .article-heading-container h1 span {
+    line-height: 100%;
+  }
+
+  /* Paragraph */
+  .article-paragraph-container {
+    margin-bottom: 32px;
+  }
+
+  .article-paragraph-container p {
+    font-size: 16px;
+    line-height: 215%;
+  }
+
+  /* Form */
+  button {
+    width: 100px;
+  }
 }
