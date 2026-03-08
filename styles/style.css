@@ -6,6 +6,7 @@
 
 body {
   font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 92px;
 }
 
 /* Header and logo */
@@ -66,3 +67,57 @@ main {
 }
 
 /* Form */
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 8px 24px;
+  border: 1px solid #ce9898;
+  border-radius: 28px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  line-height: 215%;
+  margin-right: -50px;
+}
+
+input::placeholder {
+  color: #ce9898;
+  opacity: 50%;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+  height: 52px;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 28px;
+  background: linear-gradient(90deg, #f8bfbf, #ee8b8b);
+  cursor: pointer;
+}
+
+/* Error icon and text */
+.error-icon {
+  position: absolute;
+  right: 80px;
+  display: none;
+}
+
+.error-text {
+  padding: 0 32px;
+  color: #f96464;
+  font-size: 13px;
+  margin-top: 8px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
