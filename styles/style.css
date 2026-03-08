@@ -164,3 +164,27 @@ button {
     width: 100px;
   }
 }
+
+/* Desktop view */
+@media (min-width: 1440px) {
+  body {
+    display: grid;
+    grid-template-columns: repeat(1fr 610px);
+    grid-template-areas:
+      "header hero"
+      "main hero";
+    min-height: 100vh;
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  .hero-container {
+    grid-area: hero;
+  }
+}
