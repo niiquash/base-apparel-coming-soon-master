@@ -134,6 +134,17 @@ button {
     padding: 64px 162px;
   }
 
+  /* Hero section */
+  .hero-container {
+    height: 400px;
+  }
+
+  .hero {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+
   /* Heading */
   .article-heading-container {
     margin-bottom: 32px;
@@ -169,7 +180,7 @@ button {
 @media (min-width: 1440px) {
   body {
     display: grid;
-    grid-template-columns: repeat(1fr 610px);
+    grid-template-columns: repeat(1fr 1fr);
     grid-template-areas:
       "header hero"
       "main hero";
@@ -186,5 +197,11 @@ button {
 
   .hero-container {
     grid-area: hero;
+    border: 1px solid red;
+  }
+
+  .hero {
+    height: 100%;
+    object-fit: cover;
   }
 }
