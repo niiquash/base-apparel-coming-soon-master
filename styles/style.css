@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Header and logo */
+header {
+  width: 100%;
+  padding: 32px;
+}
+
+.logo-container {
+  width: 100px;
+}
+
+.logo {
+  width: 100%;
+}
+
+/* Hero section */
+.hero-container {
+  width: 100%;
+}
+
+.hero {
+  width: 100%;
+}
+
+/* Main - Article heading, paragraph, form */
+main {
+  padding: 64px 32px 0 32px;
+}
+
+/* Heading */
+.article-heading-container {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.article-heading-container h1 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 10px;
+}
+
+.article-heading-container h1 span {
+  font-weight: 300;
+  color: #ce9898;
+}
+
+/* Paragraph */
+.article-paragraph-container {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.article-paragraph-container p {
+  font-size: 14px;
+  line-height: 155%;
+  color: #ce9898;
+}
+
+/* Form */
