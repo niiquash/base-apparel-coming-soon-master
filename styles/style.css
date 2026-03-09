@@ -179,6 +179,9 @@ button {
 /* Desktop view */
 @media (min-width: 1440px) {
   body {
+    background: url("../images/bg-pattern-desktop.svg");
+    background-position: left;
+    background-repeat: no-repeat;
     display: grid;
     grid-template-columns: repeat(1fr 1fr);
     grid-template-areas:
@@ -189,19 +192,34 @@ button {
 
   header {
     grid-area: header;
+    padding: 0;
+    padding-top: 80px;
+    margin-left: 165px;
+    margin-right: 220px;
+  }
+
+  .logo-container {
+    width: 160px;
   }
 
   main {
     grid-area: main;
+    padding: 136px 220px 138px 165px;
   }
 
   .hero-container {
     grid-area: hero;
-    border: 1px solid red;
+    height: 100%;
+    width: 610px;
   }
 
-  .hero {
-    height: 100%;
-    object-fit: cover;
+  /* Heading */
+  .article-heading-container {
+    text-align: left;
+  }
+
+  /* Paragraph */
+  .article-paragraph-container {
+    text-align: left;
   }
 }
